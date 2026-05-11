@@ -1,0 +1,15 @@
+# Dependencies for create_session.py and monitor_session.py
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: dbus-python and PyGObject require native libraries to be present:
+#   - dbus-python: libdbus-1-dev (Debian/Ubuntu) / dbus-devel (RHEL/Fedora)
+#   - PyGObject:   libgirepository1.0-dev + gir1.2-glib-2.0 (Debian/Ubuntu)
+#                  gobject-introspection-devel (RHEL/Fedora)
+#
+# On RHEL/Fedora these are typically already installed as system packages:
+#   dnf install python3-dbus python3-gobject
+
+dbus-python>=1.2.18
+PyGObject>=3.40.1
